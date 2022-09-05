@@ -40,7 +40,7 @@ public class TeacherController {
 
  public void save(@RequestBody Teacher teacher) {
 
- teacherService.saveEmployee(teacher);
+ teacherService.saveTeacher(teacher);
 
  }
 
@@ -56,7 +56,7 @@ public class TeacherController {
 
  e.setSalary(teacher.getSalary());
 
- teacherService.saveEmployee(e);
+ teacherService.saveTeacher(e);
 
  }
 
