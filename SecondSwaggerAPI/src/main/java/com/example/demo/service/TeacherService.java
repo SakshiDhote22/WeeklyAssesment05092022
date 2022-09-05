@@ -17,7 +17,7 @@ public class TeacherService {
 
  TeacherRepo teacherRepository;
 
- public String saveEmployee(Teacher teacher) {
+ public String saveTeacher(Teacher teacher) {
 
 	 teacherRepository.save(teacher);
 
